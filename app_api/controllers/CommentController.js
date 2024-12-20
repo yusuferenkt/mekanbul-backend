@@ -79,7 +79,7 @@ const deleteComment=async function(req,res) {
 
 const updateComment=async function(req,res) {
     try {
-        await Venue,findById(req.params.venueid)
+        await Venue.findById(req.params.venueid)
         .select("comments")
         .exec()
         .then(function(venue) {
