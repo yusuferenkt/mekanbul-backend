@@ -22,7 +22,7 @@ const calculateLastRating = function(incomingVenue, isDeleted) {
 const updateRating = function(venueid, isDeleted) {
     Venue.findById(venueid).select("rating comments")
     .exec().then(function(venue) {
-        calculateLastRating(venue.isDeleted);
+        calculateLastRating(venue,isDeleted);
     })
 };
 
@@ -125,6 +125,7 @@ const getComment = async function (req, res) {
         createResponse(res, "404", "Mekan bulunamadı");
     }
 };
+
 
 
 module.exports={
