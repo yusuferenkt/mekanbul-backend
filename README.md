@@ -1,1 +1,1 @@
-(https://mekanbul-backend-lake.vercel.app/)[Vercel Link]
+Vercel linki: [(https://mekanbul-backend-lake.vercel.app/](https://mekanbul-steel.vercel.app/](https://mekanbul-backend-lake.vercel.app/)
